@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: call-endpoint
+spec:
+  schedule: "*/15 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: call-endpoint
+              image: appropriate/curl
+              args:
+                - curl
+                - -X
+                - 'GET'
+                - 'http://192.168.49.2:30002/UpdateCache'
+          restartPolicy: OnFailure

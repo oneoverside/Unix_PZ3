@@ -1,0 +1,15 @@
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\bin\Debug\net7.0\Dictionary.Infrastructure.deps.json
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\bin\Debug\net7.0\Dictionary.Infrastructure.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\bin\Debug\net7.0\Dictionary.Infrastructure.pdb
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\bin\Debug\net7.0\Dictionary.Application.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\bin\Debug\net7.0\Dictionary.Application.pdb
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.AssemblyInfo.cs
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.csproj.CopyComplete
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\refint\Dictionary.Infrastructure.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\Dictionary.Infrastructure.pdb
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Infrastructure\obj\Debug\net7.0\ref\Dictionary.Infrastructure.dll

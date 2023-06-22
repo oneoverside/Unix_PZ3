@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mFUDUnfuFaz/MfmLhuf+X37AyC124rtkrExckkMCAsXLSm3lOdu3smcAvd/Cysf+8Nelz84xGlmf8Jnn7M4pJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Logger-Application\\LogAnalizer\\LogAnalizer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oneov\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\microsoft.openapi\\1.6.4\\microsoft.openapi.1.6.4.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

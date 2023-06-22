@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loganalizer-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loganalizer-api
+  template:
+    metadata:
+      labels:
+        app: loganalizer-api
+    spec:
+      volumes:
+        - name: dictionary-logs-storage
+          hostPath:
+            path: /data
+            type: DirectoryOrCreate
+      containers:
+        - name: loganalizer-api
+          imagePullPolicy: Always
+          image: 62136/loganalizator:latest
+          env:
+            - name: FileSystem__Path
+              value: "/dictionary-logs"
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: dictionary-logs-storage
+              mountPath: /dictionary-logs
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: loganalizer-service
+spec:
+  type: NodePort
+  selector:
+    app: loganalizer-api
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30003

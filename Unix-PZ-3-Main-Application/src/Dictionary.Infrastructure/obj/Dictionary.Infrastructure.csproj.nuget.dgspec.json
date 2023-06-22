@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Infrastructure\\Dictionary.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\Dictionary.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\Dictionary.Application.csproj",
+        "projectName": "Dictionary.Application",
+        "projectPath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\Dictionary.Application.csproj",
+        "packagesPath": "C:\\Users\\oneov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oneov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.5, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Infrastructure\\Dictionary.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Infrastructure\\Dictionary.Infrastructure.csproj",
+        "projectName": "Dictionary.Infrastructure",
+        "projectPath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Infrastructure\\Dictionary.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\oneov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oneov\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\Dictionary.Application.csproj": {
+                "projectPath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\Dictionary.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

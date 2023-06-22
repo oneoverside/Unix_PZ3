@@ -1,0 +1,12 @@
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\bin\Debug\net7.0\Dictionary.Application.deps.json
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\bin\Debug\net7.0\Dictionary.Application.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\bin\Debug\net7.0\Dictionary.Application.pdb
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.csproj.AssemblyReference.cache
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.AssemblyInfoInputs.cache
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.AssemblyInfo.cs
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.csproj.CoreCompileInputs.cache
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\refint\Dictionary.Application.dll
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\Dictionary.Application.pdb
+C:\Users\oneov\RiderProjects\Unix-PZ-3-Main-Application\src\Dictionary.Application\obj\Debug\net7.0\ref\Dictionary.Application.dll

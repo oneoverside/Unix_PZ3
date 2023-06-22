@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qYOZ4kKPlG3DxVGGZuhRcHzBIh2iCa1p08Tk+Ak+RQ5J8oeBm79opWCzaQcCOKfa8a8Coi0JL//4Fe+4GWXwfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oneov\\RiderProjects\\Unix-PZ-3\\Unix-PZ-3-Main-Application\\src\\Dictionary.Application\\Dictionary.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oneov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.4.23259.5\\microsoft.extensions.logging.abstractions.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.4.23259.5\\microsoft.extensions.options.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "C:\\Users\\oneov\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.4.23259.5\\microsoft.extensions.primitives.8.0.0-preview.4.23259.5.nupkg.sha512"
+  ],
+  "logs": []
+}

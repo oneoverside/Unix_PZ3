@@ -1,0 +1,42 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: init-db-job
+spec:
+  template:
+    spec:
+      containers:
+        - name: init-db
+          image: postgres:latest
+          command: ["/bin/bash"]
+          args:
+            - -c
+            - |
+              until pg_isready -h postgres-service -p 5432; do sleep 1; done
+              PGPASSWORD="1234" psql -h postgres-service -U postgres -d Inventory -f /init.sql
+          volumeMounts:
+            - name: start-data
+              mountPath: /init.sql
+              subPath: init.sql
+      restartPolicy: OnFailure
+      volumes:
+        - name: start-data
+          configMap:
+            name: postgres-start-data
+
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-start-data
+data:
+  init.sql: |
+    CREATE TABLE inven_item (
+        inven_item_id UUID PRIMARY KEY,
+        last_mod_date TIMESTAMP NOT NULL,
+        is_deleted BOOLEAN NOT NULL,
+        plu INT NOT NULL,
+        eid TEXT DEFAULT '' NOT NULL,
+        vendor TEXT DEFAULT '' NOT NULL
+    );
